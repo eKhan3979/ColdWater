@@ -1,1 +1,0 @@
-<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/menu_main_treinos" android:icon="@drawable/ic_dividendos" android:title="Treinos" /><item android:id="@+id/menu_main_estatisticas" android:icon="@drawable/ic_movimentacao" android:title="Estatísticas" /></menu>

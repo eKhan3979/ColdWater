@@ -1,1 +1,0 @@
-<TextView android:id="@+id/tvwSpinnerItem" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="0dp" android:textAlignment="center" android:textColor="@color/cor_texto_edit" android:textSize="12sp" android:textStyle="bold" android:background="@color/white" xmlns:android="http://schemas.android.com/apk/res/android" />
