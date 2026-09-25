@@ -1,0 +1,82 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc6466f3ee2892b40cf9" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.appcompat.app.AppCompatActivity" partial_assembly_qualified_name="ColdWater.MainActivity, ColdWater">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onCreateOptionsMenu" method="n_onCreateOptionsMenu:(Landroid/view/Menu;)Z:GetOnCreateOptionsMenu_Landroid_view_Menu_Handler" jni_signature="(Landroid/view/Menu;)Z" params="android.view.Menu p0" retval="boolean" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="TreinoCadastroFragment" package="crc6493c5816a014477ee" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.DialogFragment" partial_assembly_qualified_name="ColdWater.Fragments.TreinoCadastroFragment, ColdWater">
+      <constructors>
+        <constructor name="TreinoCadastroFragment" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreateView" method="n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler" jni_signature="(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;" params="android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2" retval="android.view.View" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onResume" method="n_onResume:()V:GetOnResumeHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="TreinoExcluirFragment" package="crc6493c5816a014477ee" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.DialogFragment" partial_assembly_qualified_name="ColdWater.Fragments.TreinoExcluirFragment, ColdWater">
+      <constructors>
+        <constructor name="TreinoExcluirFragment" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreateView" method="n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler" jni_signature="(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;" params="android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2" retval="android.view.View" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onResume" method="n_onResume:()V:GetOnResumeHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="TreinosFragment" package="crc6493c5816a014477ee" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.DialogFragment" partial_assembly_qualified_name="ColdWater.Fragments.TreinosFragment, ColdWater">
+      <constructors>
+        <constructor name="TreinosFragment" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreateView" method="n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler" jni_signature="(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;" params="android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2" retval="android.view.View" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onDismiss" method="n_onDismiss:(Landroid/content/DialogInterface;)V:GetOnDismiss_Landroid_content_DialogInterface_Handler" jni_signature="(Landroid/content/DialogInterface;)V" params="android.content.DialogInterface p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onResume" method="n_onResume:()V:GetOnResumeHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="ListaTreinosAdapter" package="crc64d7c513f792956e2b" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.recyclerview.widget.RecyclerView.Adapter" partial_assembly_qualified_name="ColdWater.Adapters.ListaTreinosAdapter, ColdWater">
+      <constructors>
+        <constructor name="ListaTreinosAdapter" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="getItemCount" method="n_getItemCount:()I:GetGetItemCountHandler" jni_signature="()I" retval="int" is_dynamically_registered="True" />
+        <method name="onBindViewHolder" method="n_onBindViewHolder:(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V:GetOnBindViewHolder_Landroidx_recyclerview_widget_RecyclerView_ViewHolder_IHandler" jni_signature="(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V" params="androidx.recyclerview.widget.RecyclerView.ViewHolder p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onCreateViewHolder" method="n_onCreateViewHolder:(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;:GetOnCreateViewHolder_Landroid_view_ViewGroup_IHandler" jni_signature="(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;" params="android.view.ViewGroup p0, int p1" retval="androidx.recyclerview.widget.RecyclerView.ViewHolder" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="ListaTreinosAdapterViewHolder" package="crc64d7c513f792956e2b" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.recyclerview.widget.RecyclerView.ViewHolder" partial_assembly_qualified_name="ColdWater.Adapters.ListaTreinosAdapterViewHolder, ColdWater">
+      <constructors>
+        <constructor name="ListaTreinosAdapterViewHolder" method="n_.ctor:(Landroid/view/View;)V:" jni_signature="(Landroid/view/View;)V" managed_parameters="Android.Views.View, Mono.Android" params="android.view.View p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="ListaTreinosNewAdapter" package="crc64d7c513f792956e2b" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.recyclerview.widget.RecyclerView.Adapter" partial_assembly_qualified_name="ColdWater.Adapters.ListaTreinosNewAdapter, ColdWater">
+      <constructors>
+        <constructor name="ListaTreinosNewAdapter" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="getItemCount" method="n_getItemCount:()I:GetGetItemCountHandler" jni_signature="()I" retval="int" is_dynamically_registered="True" />
+        <method name="onBindViewHolder" method="n_onBindViewHolder:(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V:GetOnBindViewHolder_Landroidx_recyclerview_widget_RecyclerView_ViewHolder_IHandler" jni_signature="(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V" params="androidx.recyclerview.widget.RecyclerView.ViewHolder p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onCreateViewHolder" method="n_onCreateViewHolder:(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;:GetOnCreateViewHolder_Landroid_view_ViewGroup_IHandler" jni_signature="(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;" params="android.view.ViewGroup p0, int p1" retval="androidx.recyclerview.widget.RecyclerView.ViewHolder" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="ListaTreinosNewAdapterViewHolder" package="crc64d7c513f792956e2b" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.recyclerview.widget.RecyclerView.ViewHolder" partial_assembly_qualified_name="ColdWater.Adapters.ListaTreinosNewAdapterViewHolder, ColdWater">
+      <constructors>
+        <constructor name="ListaTreinosNewAdapterViewHolder" method="n_.ctor:(Landroid/view/View;)V:" jni_signature="(Landroid/view/View;)V" managed_parameters="Android.Views.View, Mono.Android" params="android.view.View p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="ColdWater" module-name="ColdWater.dll">
+    <type assembly-qualified-name="ColdWater.MainActivity, ColdWater, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="coldwater.MainActivity" java-key="crc6466f3ee2892b40cf9.MainActivity" managed-key="ColdWater.MainActivity" partial-assembly-qualified-name="ColdWater.MainActivity, ColdWater" />
+    <type assembly-qualified-name="ColdWater.Fragments.TreinoCadastroFragment, ColdWater, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="coldwater.fragments.TreinoCadastroFragment" java-key="crc6493c5816a014477ee.TreinoCadastroFragment" managed-key="ColdWater.Fragments.TreinoCadastroFragment" partial-assembly-qualified-name="ColdWater.Fragments.TreinoCadastroFragment, ColdWater" />
+    <type assembly-qualified-name="ColdWater.Fragments.TreinoExcluirFragment, ColdWater, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="coldwater.fragments.TreinoExcluirFragment" java-key="crc6493c5816a014477ee.TreinoExcluirFragment" managed-key="ColdWater.Fragments.TreinoExcluirFragment" partial-assembly-qualified-name="ColdWater.Fragments.TreinoExcluirFragment, ColdWater" />
+    <type assembly-qualified-name="ColdWater.Fragments.TreinosFragment, ColdWater, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="coldwater.fragments.TreinosFragment" java-key="crc6493c5816a014477ee.TreinosFragment" managed-key="ColdWater.Fragments.TreinosFragment" partial-assembly-qualified-name="ColdWater.Fragments.TreinosFragment, ColdWater" />
+    <type assembly-qualified-name="ColdWater.Adapters.ListaTreinosAdapter, ColdWater, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="coldwater.adapters.ListaTreinosAdapter" java-key="crc64d7c513f792956e2b.ListaTreinosAdapter" managed-key="ColdWater.Adapters.ListaTreinosAdapter" partial-assembly-qualified-name="ColdWater.Adapters.ListaTreinosAdapter, ColdWater" />
+    <type assembly-qualified-name="ColdWater.Adapters.ListaTreinosAdapterViewHolder, ColdWater, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="coldwater.adapters.ListaTreinosAdapterViewHolder" java-key="crc64d7c513f792956e2b.ListaTreinosAdapterViewHolder" managed-key="ColdWater.Adapters.ListaTreinosAdapterViewHolder" partial-assembly-qualified-name="ColdWater.Adapters.ListaTreinosAdapterViewHolder, ColdWater" />
+    <type assembly-qualified-name="ColdWater.Adapters.ListaTreinosNewAdapter, ColdWater, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="coldwater.adapters.ListaTreinosNewAdapter" java-key="crc64d7c513f792956e2b.ListaTreinosNewAdapter" managed-key="ColdWater.Adapters.ListaTreinosNewAdapter" partial-assembly-qualified-name="ColdWater.Adapters.ListaTreinosNewAdapter, ColdWater" />
+    <type assembly-qualified-name="ColdWater.Adapters.ListaTreinosNewAdapterViewHolder, ColdWater, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="coldwater.adapters.ListaTreinosNewAdapterViewHolder" java-key="crc64d7c513f792956e2b.ListaTreinosNewAdapterViewHolder" managed-key="ColdWater.Adapters.ListaTreinosNewAdapterViewHolder" partial-assembly-qualified-name="ColdWater.Adapters.ListaTreinosNewAdapterViewHolder, ColdWater" />
+  </acw-types>
+</api>

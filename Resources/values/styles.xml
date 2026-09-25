@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="IceWater" parent="TextAppearance.AppCompat"/>
+
+    <style name="gstyButtonImageLight">
+        <item name="android:background">@color/cor_button_background</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="gstyEditText">
+        <item name="android:background">@color/white</item>
+        <item name="android:focusable">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:inputType">date</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/cor_texto_edit</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="gstyEditTextReadOnly" parent="gstyEditText">
+        <item name="android:editable">false</item>
+    </style>
+    <style name="gstyTextView">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/cor_label</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="gstyTextViewLista">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/cor_texto_lista</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="gstyTextViewDestaque">
+        <item name="android:background">@color/cor_texto_destaque_background</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/cor_texto_destaque</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="gstyTextViewTitulo">
+        <item name="android:background">@color/cor_dodgers</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="gstyTextViewNew">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/cor_texto_view_new</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="gstyTextViewNewBranco">
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/cor_texto_view_new</item>
+        <item name="android:textSize">12dp</item>
+    </style>    <style name="gstyTextViewListaNew">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/cor_texto_view_new</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+</resources>
