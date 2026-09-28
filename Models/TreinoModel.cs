@@ -104,7 +104,7 @@
 
                     if (SegundosGastos > 0)
                     {
-                        int intMedia = SegundosGastos / (Total / 100),
+                        int intMedia = (int)Math.Floor(SegundosGastos / (Total / 100.0)),
                             intMM = intMedia / 60,
                             intSS = intMedia - intMM * 60;
 
@@ -136,7 +136,8 @@
                     {
                         TotalStr = Total.ToString("#,##0");
 
-                        int intMedia = SegundosGastos / (Total / 100),
+                        int intMedia = (int)(Math.Floor
+                            (SegundosGastos / (Total / 100.0))),
                             intMM = intMedia / 60,
                             intSS = intMedia - intMM * 60;
 

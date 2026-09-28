@@ -300,9 +300,9 @@ namespace ColdWater.Fragments
                 _dpdDe.DatePicker.MinDate = minDateMillis;
                 _dpdDe.DateSet += DpdDe_DateSet;
                 _dpdDe.DatePicker.DateTime = _ViewModel.PeriodoDe;
-                
-                _dpdDe.Show();
             }
+
+            _dpdDe.Show();
         }
 
         private async void ExcluirFragment_Evento_Excluir(object? sender, EventArgs e)
@@ -388,6 +388,5 @@ namespace ColdWater.Fragments
         }
 
         #endregion
-
     }
 }

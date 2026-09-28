@@ -81,6 +81,7 @@
                 <TextView
                     android:id="@+id/treinos_tvw_02"
                     android:text="até"
+                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:layout_marginLeft="4dp"
                     android:layout_marginRight="4dp"

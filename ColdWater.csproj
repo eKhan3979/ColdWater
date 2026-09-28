@@ -16,6 +16,7 @@
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <FileVersion>2.0.0.0</FileVersion>
     <ApplicationIcon>Resources\drawable\ic_cold_water.ico</ApplicationIcon>
+    <PackageIcon>ic_logo_pq.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Resources\drawable\ic_cold_water.ico" />
@@ -27,5 +28,11 @@
     <PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.8.9.2" />
     <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.4.0.5" />
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.14.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Resources\drawable\ic_logo_pq.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>
