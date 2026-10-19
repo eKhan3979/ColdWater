@@ -44,7 +44,7 @@ namespace ColdWater.Services
 
         public async Task<int> Gravar(TreinoModel treino)
         {
-            int intIdTreino = treino.IdTreino;
+            int idTreino = treino.IdTreino;
 
             try
             {
@@ -54,7 +54,13 @@ namespace ColdWater.Services
                 {
                     string strId = await client.GetStringAsync(strLink);
 
-                    intIdTreino = JsonConvert.DeserializeObject<int>(strId);
+                    if (strId != null)
+                    {
+                        TreinoIdDto?[] retorno = JsonConvert.DeserializeObject<TreinoIdDto[]>(strId);
+
+                        if ((retorno != null) && (retorno.Length == 1))
+                            idTreino = retorno[0].IdTreino;
+                    }                    
 
                     client.Dispose();
                 }
@@ -64,7 +70,7 @@ namespace ColdWater.Services
                 throw;
             }
 
-            return intIdTreino;
+            return idTreino;
         }
 
         public async Task<List<TreinoModel>> Lista(string strYyyy_Mm_Dd_De, string strYyyy_Mm_Dd_Ate)
@@ -77,7 +83,7 @@ namespace ColdWater.Services
 
                 using (HttpClient client = new HttpClient())
                 {
-                    client.Timeout = new TimeSpan(0, 3, 0);
+                    client.Timeout = new TimeSpan(0, 0, 30);
 
                     string strRetorno = await client.GetStringAsync(strLink);
 

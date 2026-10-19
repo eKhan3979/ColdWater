@@ -205,7 +205,12 @@ namespace ColdWater.Fragments
                     Evento_Gravado?.Invoke(_ViewModel.TreinoEdit.IdTreino, EventArgs.Empty);
                 }
                 else
-                    throw new Exception("- Gravação NÃO realizada !");
+                {
+                    if (_ViewModel.ErroMsg.Length > 0)
+                        throw new Exception("- " + _ViewModel.ErroMsg.ToString() + " !");
+                    else
+                        throw new Exception("- Gravação NÃO realizada !");
+                }
             }
             catch (Exception excErro)
             {
